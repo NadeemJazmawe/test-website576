@@ -6,7 +6,7 @@ const mongo = require('mongodb');
 const MongoClient = mongo.MongoClient;
 const ObjectId = require('mongodb').ObjectId;
 
-const url = "mongodb+srv://test-website567:<password>@nadeem-cluster.hevx3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" ;//"mongodb://127.0.0.1:27017";
+const url = "mongodb+srv://test-website567:Nn123456@nadeem-cluster.hevx3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" ;//"mongodb://127.0.0.1:27017";
 const port = process.env.PORT || 3000;
 
 app.use("/", express.static(__dirname + "/"));
